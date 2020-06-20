@@ -20,7 +20,7 @@ public class Client{
 
 
             DES encrypter = DES.getEncrypter(myKey);
-//
+////
             System.out.println("Insert your message");
 
             Thread sender = new Thread(new Runnable() {
