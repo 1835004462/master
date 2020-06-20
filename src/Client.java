@@ -5,9 +5,8 @@ import com.google.gson.Gson;
 
 public class Client{
     public static String myKey = "u7024668";
-
     public static void main(String[] args) {
-
+    //修改
         Scanner in = new Scanner(System.in);
         RSA rsa = new RSA("SHA1withRSA");
         Gson gson = new Gson();
